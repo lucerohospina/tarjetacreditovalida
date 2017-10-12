@@ -33,7 +33,7 @@ function isValidCard() {
     }
 
 
-    //creamos varianle sum donde vamos a sumar los elementos del array inverso
+    //creamos variante sum donde vamos a sumar los elementos del array inverso
     var sum = 0;
     //vamos a recorrer el array inverso para poder sumar sus elementos
     for (var k = 0; k < reverseCardNumber.length; k++) {
