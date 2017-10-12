@@ -6,7 +6,7 @@
 ####	Escribir card number prompt("escribe numero");
 ####	Mientras card number = "" (campo vacio);
 ####    Hacer prompt("escribe numero");
-####	
+####
 ####	Leer numero ingresado 4083952015263;
 ####	cardNumber <- 4083952015263;
 ####	emptyArray = [] <- declaramos un array vacio;
@@ -30,4 +30,3 @@
 ### FinProceso
 
 ![flowchart](assets/isValidCard_diagramaDeFlujo2.JPG)
-

@@ -4,8 +4,8 @@ function isValidCard() {
     var cardNumber = prompt('Escribe el número de tu tarjeta');
     var numberExp = /^[0-9]+$/;
 
-    while (cardNumber === '' || !number.match(alphaExp) || number.length>16)) {
-      //condicionamos a que el asuario no deje el campo el blanco y le pedimos que escriba su número de tarjeta
+    //condicionamos a que el asuario no deje el campo el blanco y le pedimos que escriba su número de tarjeta
+    while (cardNumber === '' || !cardNumber.match(numberExp) || cardNumber.length>16) {
       cardNumber = prompt('Escribe un número de tarjeta válido');
     }
 
@@ -31,7 +31,7 @@ function isValidCard() {
       }
     }
 
-    
+
     //creamos varianle sum donde vamos a sumar los elementos del array inverso
     var sum = 0;
     //vamos a recorrer el array inverso para poder sumar sus elementos
