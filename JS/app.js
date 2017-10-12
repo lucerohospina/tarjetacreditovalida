@@ -2,18 +2,19 @@
 function isValidCard() {
     //pedimos al usuario su número de tarjeta de crédito
     var cardNumber = prompt('Escribe el número de tu tarjeta');
+    //Expresion regular, que solo admite numeros,
     var numberExp = /^[0-9]+$/;
 
-    //condicionamos a que el asuario no deje el campo el blanco y le pedimos que escriba su número de tarjeta
+    //Condicionamos a que e usuario no deje el campo el blanco, que no ingrese dígitos que no sean números.
     while (cardNumber === '' || !cardNumber.match(numberExp) || cardNumber.length!=16) {
       cardNumber = prompt('Escribe un número de tarjeta válido');
     }
 
+    //Este array va a contener los números del cardNumber.
     var arr = [];
-    //recorremos el número de tarjeta brindado por el usuario
+    //Recorre los números del string y los almacena en el array vacío.
     for (var i = 0; i < cardNumber.length; i++) {
-      //colocamos en el array vacío los números de las tarjetas que ya han sido separados en un array
-      arr.push(parseInt(cardNumber[i].split('')));
+      arr.push(parseInt(cardNumber[i]);
     }
 
 
