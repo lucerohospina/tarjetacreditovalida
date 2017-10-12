@@ -2,6 +2,7 @@
 function isValidCard() {
     //pedimos al usuario su número de tarjeta de crédito
     var cardNumber = prompt('Escribe el número de tu tarjeta');
+    //Expresion regular, que solo admite numeros
     var numberExp = /^[0-9]+$/;
 
     //condicionamos a que el asuario no deje el campo el blanco y le pedimos que escriba su número de tarjeta
