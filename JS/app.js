@@ -14,7 +14,7 @@ function isValidCard() {
     var arr = [];
     //Recorre los números del string y los almacena en el array vacío.
     for (var i = 0; i < cardNumber.length; i++) {
-      arr.push(parseInt(cardNumber[i]);
+      arr.push(parseInt(cardNumber[i]));
     }
 
 
