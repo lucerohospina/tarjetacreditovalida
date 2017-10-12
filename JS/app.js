@@ -5,7 +5,7 @@ function isValidCard() {
     //Expresion regular, que solo admite numeros
     var numberExp = /^[0-9]+$/;
 
-    //condicionamos a que el asuario no deje el campo el blanco y le pedimos que escriba su número de tarjeta
+    //condicionamos a que el usuario no deje el campo el blanco y le pedimos que escriba su número de tarjeta
     while (cardNumber === '' || !cardNumber.match(numberExp) || cardNumber.length!=16) {
       cardNumber = prompt('Escribe un número de tarjeta válido');
     }
