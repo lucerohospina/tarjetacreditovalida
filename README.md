@@ -1,6 +1,6 @@
 # Valid Credit Card
 
-### In this document we are presenting the the pseudocode and the flowchart for the "Valid Credit Card" method.
+### In this document we are presenting the pseudocode and the flowchart for the "Valid Credit Card" method.
 
 #### Proceso isValidCard
 ####	Escribir card number prompt("escribe numero");
@@ -29,5 +29,5 @@
 ####		Escribir mensaje al usuario "Tarjeta Invalida";
 ### FinProceso
 
-![flowchart](assets/isValidCard_diagramaDeFlujo2.JPG)
+![flowchart](assets/Docs/isValidCard_diagramaDeFlujo2.JPG)
 
